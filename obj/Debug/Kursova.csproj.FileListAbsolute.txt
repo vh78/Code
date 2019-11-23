@@ -1,0 +1,100 @@
+C:\Users\453\Desktop\Kursova rabota MVC\Kursova\Kursova\bin\ApplicationInsights.config
+C:\Users\453\Desktop\Kursova rabota MVC\Kursova\Kursova\bin\roslyn\csc.exe
+C:\Users\453\Desktop\Kursova rabota MVC\Kursova\Kursova\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\453\Desktop\Kursova rabota MVC\Kursova\Kursova\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\453\Desktop\Kursova rabota MVC\Kursova\Kursova\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\453\Desktop\Kursova rabota MVC\Kursova\Kursova\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\453\Desktop\Kursova rabota MVC\Kursova\Kursova\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\453\Desktop\Kursova rabota MVC\Kursova\Kursova\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\453\Desktop\Kursova rabota MVC\Kursova\Kursova\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\453\Desktop\Kursova rabota MVC\Kursova\Kursova\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\453\Desktop\Kursova rabota MVC\Kursova\Kursova\bin\roslyn\vbc.exe
+C:\Users\453\Desktop\Kursova rabota MVC\Kursova\Kursova\bin\roslyn\VBCSCompiler.exe
+C:\Users\453\Desktop\Kursova rabota MVC\Kursova\Kursova\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\453\Desktop\Kursova rabota MVC\Kursova\Kursova\bin\Kursova.dll.config
+C:\Users\453\Desktop\Kursova rabota MVC\Kursova\Kursova\bin\Kursova.dll
+C:\Users\453\Desktop\Kursova rabota MVC\Kursova\Kursova\bin\Kursova.pdb
+C:\Users\453\Desktop\Kursova rabota MVC\Kursova\Kursova\bin\EntityFramework.dll
+C:\Users\453\Desktop\Kursova rabota MVC\Kursova\Kursova\bin\EntityFramework.SqlServer.dll
+C:\Users\453\Desktop\Kursova rabota MVC\Kursova\Kursova\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\453\Desktop\Kursova rabota MVC\Kursova\Kursova\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\453\Desktop\Kursova rabota MVC\Kursova\Kursova\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\453\Desktop\Kursova rabota MVC\Kursova\Kursova\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\453\Desktop\Kursova rabota MVC\Kursova\Kursova\bin\Microsoft.AI.Web.dll
+C:\Users\453\Desktop\Kursova rabota MVC\Kursova\Kursova\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\453\Desktop\Kursova rabota MVC\Kursova\Kursova\bin\Microsoft.ApplicationInsights.dll
+C:\Users\453\Desktop\Kursova rabota MVC\Kursova\Kursova\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\453\Desktop\Kursova rabota MVC\Kursova\Kursova\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\453\Desktop\Kursova rabota MVC\Kursova\Kursova\bin\System.Web.Helpers.dll
+C:\Users\453\Desktop\Kursova rabota MVC\Kursova\Kursova\bin\System.Web.Mvc.dll
+C:\Users\453\Desktop\Kursova rabota MVC\Kursova\Kursova\bin\System.Web.Razor.dll
+C:\Users\453\Desktop\Kursova rabota MVC\Kursova\Kursova\bin\System.Web.Webpages.Deployment.dll
+C:\Users\453\Desktop\Kursova rabota MVC\Kursova\Kursova\bin\System.Web.Webpages.dll
+C:\Users\453\Desktop\Kursova rabota MVC\Kursova\Kursova\bin\System.Web.Webpages.Razor.dll
+C:\Users\453\Desktop\Kursova rabota MVC\Kursova\Kursova\bin\EntityFramework.xml
+C:\Users\453\Desktop\Kursova rabota MVC\Kursova\Kursova\bin\EntityFramework.SqlServer.xml
+C:\Users\453\Desktop\Kursova rabota MVC\Kursova\Kursova\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\453\Desktop\Kursova rabota MVC\Kursova\Kursova\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\453\Desktop\Kursova rabota MVC\Kursova\Kursova\bin\Microsoft.AI.Web.xml
+C:\Users\453\Desktop\Kursova rabota MVC\Kursova\Kursova\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\453\Desktop\Kursova rabota MVC\Kursova\Kursova\bin\Microsoft.ApplicationInsights.xml
+C:\Users\453\Desktop\Kursova rabota MVC\Kursova\Kursova\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\453\Desktop\Kursova rabota MVC\Kursova\Kursova\bin\System.Web.Razor.xml
+C:\Users\453\Desktop\Kursova rabota MVC\Kursova\Kursova\bin\System.Web.Webpages.xml
+C:\Users\453\Desktop\Kursova rabota MVC\Kursova\Kursova\bin\System.Web.Webpages.Deployment.xml
+C:\Users\453\Desktop\Kursova rabota MVC\Kursova\Kursova\bin\System.Web.Webpages.Razor.xml
+C:\Users\453\Desktop\Kursova rabota MVC\Kursova\Kursova\bin\System.Web.Helpers.xml
+C:\Users\453\Desktop\Kursova rabota MVC\Kursova\Kursova\bin\System.Web.Mvc.xml
+C:\Users\453\Desktop\Kursova rabota MVC\Kursova\Kursova\obj\Debug\Kursova.csprojResolveAssemblyReference.cache
+C:\Users\453\Desktop\Kursova rabota MVC\Kursova\Kursova\obj\Debug\Kursova.dll
+C:\Users\453\Desktop\Kursova rabota MVC\Kursova\Kursova\obj\Debug\Kursova.pdb
+C:\Users\453\Desktop\Първи курс 2016-2017\Kursova rabota MVC\Kursova\Kursova\bin\ApplicationInsights.config
+C:\Users\453\Desktop\Първи курс 2016-2017\Kursova rabota MVC\Kursova\Kursova\bin\roslyn\csc.exe
+C:\Users\453\Desktop\Първи курс 2016-2017\Kursova rabota MVC\Kursova\Kursova\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\453\Desktop\Първи курс 2016-2017\Kursova rabota MVC\Kursova\Kursova\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\453\Desktop\Първи курс 2016-2017\Kursova rabota MVC\Kursova\Kursova\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\453\Desktop\Първи курс 2016-2017\Kursova rabota MVC\Kursova\Kursova\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\453\Desktop\Първи курс 2016-2017\Kursova rabota MVC\Kursova\Kursova\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\453\Desktop\Първи курс 2016-2017\Kursova rabota MVC\Kursova\Kursova\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\453\Desktop\Първи курс 2016-2017\Kursova rabota MVC\Kursova\Kursova\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\453\Desktop\Първи курс 2016-2017\Kursova rabota MVC\Kursova\Kursova\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\453\Desktop\Първи курс 2016-2017\Kursova rabota MVC\Kursova\Kursova\bin\roslyn\vbc.exe
+C:\Users\453\Desktop\Първи курс 2016-2017\Kursova rabota MVC\Kursova\Kursova\bin\roslyn\VBCSCompiler.exe
+C:\Users\453\Desktop\Първи курс 2016-2017\Kursova rabota MVC\Kursova\Kursova\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\453\Desktop\Първи курс 2016-2017\Kursova rabota MVC\Kursova\Kursova\bin\Kursova.dll.config
+C:\Users\453\Desktop\Първи курс 2016-2017\Kursova rabota MVC\Kursova\Kursova\bin\Kursova.dll
+C:\Users\453\Desktop\Първи курс 2016-2017\Kursova rabota MVC\Kursova\Kursova\bin\Kursova.pdb
+C:\Users\453\Desktop\Първи курс 2016-2017\Kursova rabota MVC\Kursova\Kursova\bin\EntityFramework.dll
+C:\Users\453\Desktop\Първи курс 2016-2017\Kursova rabota MVC\Kursova\Kursova\bin\EntityFramework.SqlServer.dll
+C:\Users\453\Desktop\Първи курс 2016-2017\Kursova rabota MVC\Kursova\Kursova\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\453\Desktop\Първи курс 2016-2017\Kursova rabota MVC\Kursova\Kursova\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\453\Desktop\Първи курс 2016-2017\Kursova rabota MVC\Kursova\Kursova\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\453\Desktop\Първи курс 2016-2017\Kursova rabota MVC\Kursova\Kursova\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\453\Desktop\Първи курс 2016-2017\Kursova rabota MVC\Kursova\Kursova\bin\Microsoft.AI.Web.dll
+C:\Users\453\Desktop\Първи курс 2016-2017\Kursova rabota MVC\Kursova\Kursova\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\453\Desktop\Първи курс 2016-2017\Kursova rabota MVC\Kursova\Kursova\bin\Microsoft.ApplicationInsights.dll
+C:\Users\453\Desktop\Първи курс 2016-2017\Kursova rabota MVC\Kursova\Kursova\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\453\Desktop\Първи курс 2016-2017\Kursova rabota MVC\Kursova\Kursova\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\453\Desktop\Първи курс 2016-2017\Kursova rabota MVC\Kursova\Kursova\bin\System.Web.Helpers.dll
+C:\Users\453\Desktop\Първи курс 2016-2017\Kursova rabota MVC\Kursova\Kursova\bin\System.Web.Mvc.dll
+C:\Users\453\Desktop\Първи курс 2016-2017\Kursova rabota MVC\Kursova\Kursova\bin\System.Web.Razor.dll
+C:\Users\453\Desktop\Първи курс 2016-2017\Kursova rabota MVC\Kursova\Kursova\bin\System.Web.Webpages.Deployment.dll
+C:\Users\453\Desktop\Първи курс 2016-2017\Kursova rabota MVC\Kursova\Kursova\bin\System.Web.Webpages.dll
+C:\Users\453\Desktop\Първи курс 2016-2017\Kursova rabota MVC\Kursova\Kursova\bin\System.Web.Webpages.Razor.dll
+C:\Users\453\Desktop\Първи курс 2016-2017\Kursova rabota MVC\Kursova\Kursova\bin\EntityFramework.xml
+C:\Users\453\Desktop\Първи курс 2016-2017\Kursova rabota MVC\Kursova\Kursova\bin\EntityFramework.SqlServer.xml
+C:\Users\453\Desktop\Първи курс 2016-2017\Kursova rabota MVC\Kursova\Kursova\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\453\Desktop\Първи курс 2016-2017\Kursova rabota MVC\Kursova\Kursova\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\453\Desktop\Първи курс 2016-2017\Kursova rabota MVC\Kursova\Kursova\bin\Microsoft.AI.Web.xml
+C:\Users\453\Desktop\Първи курс 2016-2017\Kursova rabota MVC\Kursova\Kursova\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\453\Desktop\Първи курс 2016-2017\Kursova rabota MVC\Kursova\Kursova\bin\Microsoft.ApplicationInsights.xml
+C:\Users\453\Desktop\Първи курс 2016-2017\Kursova rabota MVC\Kursova\Kursova\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\453\Desktop\Първи курс 2016-2017\Kursova rabota MVC\Kursova\Kursova\bin\System.Web.Razor.xml
+C:\Users\453\Desktop\Първи курс 2016-2017\Kursova rabota MVC\Kursova\Kursova\bin\System.Web.Webpages.xml
+C:\Users\453\Desktop\Първи курс 2016-2017\Kursova rabota MVC\Kursova\Kursova\bin\System.Web.Webpages.Deployment.xml
+C:\Users\453\Desktop\Първи курс 2016-2017\Kursova rabota MVC\Kursova\Kursova\bin\System.Web.Webpages.Razor.xml
+C:\Users\453\Desktop\Първи курс 2016-2017\Kursova rabota MVC\Kursova\Kursova\bin\System.Web.Helpers.xml
+C:\Users\453\Desktop\Първи курс 2016-2017\Kursova rabota MVC\Kursova\Kursova\bin\System.Web.Mvc.xml
+C:\Users\453\Desktop\Първи курс 2016-2017\Kursova rabota MVC\Kursova\Kursova\obj\Debug\Kursova.csprojResolveAssemblyReference.cache
+C:\Users\453\Desktop\Първи курс 2016-2017\Kursova rabota MVC\Kursova\Kursova\obj\Debug\Kursova.dll
+C:\Users\453\Desktop\Първи курс 2016-2017\Kursova rabota MVC\Kursova\Kursova\obj\Debug\Kursova.pdb

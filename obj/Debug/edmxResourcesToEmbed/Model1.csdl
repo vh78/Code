@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="WoodModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="UserID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FirstName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="LastName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PhoneNumber" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="email" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CompanyName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Bulstat" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="WoodsID" Type="Int32" />
+    <NavigationProperty Name="Wood" Relationship="Self.FK__Users__WoodsID__2B3F6F97" FromRole="Users" ToRole="Woods" />
+  </EntityType>
+  <EntityType Name="Wood">
+    <Key>
+      <PropertyRef Name="WoodsID" />
+    </Key>
+    <Property Name="WoodsID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="WoodsName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Cubage" Type="Double" Nullable="false" />
+    <Property Name="DateOfReceipt" Type="DateTime" Nullable="false" Precision="0" />
+    <NavigationProperty Name="Users" Relationship="Self.FK__Users__WoodsID__2B3F6F97" FromRole="Woods" ToRole="Users" />
+  </EntityType>
+  <Association Name="FK__Users__WoodsID__2B3F6F97">
+    <End Role="Woods" Type="Self.Wood" Multiplicity="0..1" />
+    <End Role="Users" Type="Self.User" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Woods">
+        <PropertyRef Name="WoodsID" />
+      </Principal>
+      <Dependent Role="Users">
+        <PropertyRef Name="WoodsID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="WoodEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Users" EntityType="Self.User" />
+    <EntitySet Name="Woods" EntityType="Self.Wood" />
+    <AssociationSet Name="FK__Users__WoodsID__2B3F6F97" Association="Self.FK__Users__WoodsID__2B3F6F97">
+      <End Role="Woods" EntitySet="Woods" />
+      <End Role="Users" EntitySet="Users" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

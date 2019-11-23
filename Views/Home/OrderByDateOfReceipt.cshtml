@@ -1,0 +1,47 @@
+﻿@model IEnumerable<Kursova.Wood>
+
+@{
+    ViewBag.Title = "OrderByDateOfReceipt";
+}
+
+<h2>OrderByDateOfReceipt</h2>
+
+<table class="table">
+    <tr>
+
+        <th>
+            @Html.DisplayNameFor(model => model.WoodsName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Cubage)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DateOfReceipt)
+        </th>
+
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.WoodsName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cubage)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateOfReceipt)
+            </td>
+
+        
+        </tr>
+    }
+</table>
+
+<div class="form-actions no-color">
+    @Html.ActionLink("Back to Home page ", "Index", null, new { @class = "btn btn-default" })
+</div>
+

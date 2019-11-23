@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="WoodModelStoreContainer" CdmEntityContainer="WoodEntities">
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="WoodModel.User">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="Bulstat" ColumnName="Bulstat" />
+          <ScalarProperty Name="WoodsID" ColumnName="WoodsID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Woods">
+      <EntityTypeMapping TypeName="WoodModel.Wood">
+        <MappingFragment StoreEntitySet="Woods">
+          <ScalarProperty Name="WoodsID" ColumnName="WoodsID" />
+          <ScalarProperty Name="WoodsName" ColumnName="WoodsName" />
+          <ScalarProperty Name="Cubage" ColumnName="Cubage" />
+          <ScalarProperty Name="DateOfReceipt" ColumnName="DateOfReceipt" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

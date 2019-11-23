@@ -1,0 +1,54 @@
+﻿@model IEnumerable<Kursova.Wood>
+@using Login.Helpers;
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<p>
+    @Html.ActionLink("Create New", "Create",null, new { @class = "btn btn-success" })
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.WoodsName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Cubage)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DateOfReceipt)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.WoodsName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Cubage)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DateOfReceipt)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id = item.WoodsID }, new { @class = "btn btn-success" }) 
+   
+            @Html.ActionLink("Delete", "Delete", new { id=item.WoodsID }, new { @class = "btn btn-success" })
+            @Html.ActionLink("OrderByName", "OrderByName", new { id = item.WoodsID }, new { @class = "btn btn-success" })
+            @Html.ActionLink("OrderByCubage", "OrderByCubage", new { id = item.WoodsID }, new { @class = "btn btn-success" })
+            @Html.ActionLink("OrderByDateOfReceipt", "OrderByDateOfReceipt", new { id = item.WoodsID }, new { @class = "btn btn-success" })
+        </td>
+    </tr>
+    }
+
+</table>
+
+<div>
+    <img src="~/Picture/k.jpg" height="250" width="250" />
+    <img src="~/Picture/buk.jpg" height="250" width="250" />
+    <img src="~/Picture/b.jpg" height="250" width="250" />
+    <img src="~/Picture/z.jpg" height="250" width="250" />
+</div>

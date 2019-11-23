@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="WoodModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="UserID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FirstName" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="LastName" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="PhoneNumber" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="email" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="CompanyName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Bulstat" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="WoodsID" Type="int" />
+  </EntityType>
+  <EntityType Name="Woods">
+    <Key>
+      <PropertyRef Name="WoodsID" />
+    </Key>
+    <Property Name="WoodsID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="WoodsName" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Cubage" Type="float" Nullable="false" />
+    <Property Name="DateOfReceipt" Type="date" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__Users__WoodsID__2B3F6F97">
+    <End Role="Woods" Type="Self.Woods" Multiplicity="0..1" />
+    <End Role="Users" Type="Self.Users" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Woods">
+        <PropertyRef Name="WoodsID" />
+      </Principal>
+      <Dependent Role="Users">
+        <PropertyRef Name="WoodsID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="WoodModelStoreContainer">
+    <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Woods" EntityType="Self.Woods" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Users__WoodsID__2B3F6F97" Association="Self.FK__Users__WoodsID__2B3F6F97">
+      <End Role="Woods" EntitySet="Woods" />
+      <End Role="Users" EntitySet="Users" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,52 @@
+﻿@model Kursova.Wood
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.WoodsName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.WoodsName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Cubage)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Cubage)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DateOfReceipt)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateOfReceipt)
+        </dd>
+
+    
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            @Html.ActionLink("Back to Home page ", "Index", null, new { @class = "btn btn-default" }) 
+            <br />
+            <input type="submit" value="Delete" class="btn btn-danger" />
+        </div>
+    }
+</div>
+

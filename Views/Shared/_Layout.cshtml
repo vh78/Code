@@ -1,0 +1,94 @@
+﻿@using Login.Helpers
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="~/Picture/z.jpg" type="image/icon">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="~/Scripts/modernizr-2.6.2.js"></script>
+    <style>
+       
+    body {
+        background-color: white;
+        color: black;
+        margin: 3%;
+        padding: 3%;
+        
+        
+    }
+
+        .city {
+            background-color: green;
+            border-color: yellow;
+            color: azure;
+        }
+    </style>
+
+</head>
+<body>
+    <div class = "city">
+       
+
+        @Html.Partial("_TopMenu")
+
+      
+    </div>
+    
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("Forest Trade Group", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                </ul>
+            </div>
+        </div>
+    </div>
+  
+    <div class="navbar-collapse collapse">
+
+        <ul class="nav navbar-nav navbar-right">
+            @if (LoginUserSession.Current.IsAuthenticated)
+            {
+                <li>
+                    <span class="navbar-text">Hello @LoginUserSession.Current.Username </span>
+                </li>
+            }
+            <li>
+                @if (LoginUserSession.Current.IsAuthenticated)
+                {
+                    @Html.ActionLink("Logout", "Logout", "Home")
+                }
+                else
+                {
+                    @Html.ActionLink("Login", "Login", "Home")
+                }
+            </li>
+        </ul>
+    </div>
+
+
+
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+            <p>Hristiqna's CourseWork</p>
+            <p>DateOfMake - 11.06.2017y</p>
+        </footer>
+    </div>
+
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+</body>
+</html>
